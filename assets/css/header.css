@@ -52,32 +52,3 @@ header {
     border-bottom: 3px solid #B28756;
 }
 
-.banner {
-    background-image: url('../images/bg.jpg');
-    background-size: cover;
-    height: calc(100vh - 100px);
-    background-position: bottom;
-    overflow: hidden; 
-}
-
-.banner .sliders {
-    width: 1000vw;
-    height:100%;
-}
-
-.banner .slide {
-    width: 100vw;
-    height: 100%;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.banner .slidearea {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
-   
-}

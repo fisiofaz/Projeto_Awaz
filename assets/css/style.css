@@ -1,5 +1,6 @@
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./button.css');
 @import url('./bannerCarousel.css');
 @import url('./about.css');
 
@@ -31,7 +32,7 @@
     background-color: F7F7F7;
 }
 
-.default.light .section_title {
+.default.light .section_title, .default.light .section_body {
     color: #000000
 }
 
@@ -39,6 +40,6 @@
     background-color: #000000;
 }
 
-.default.dark .section_title {
+.default.dark .section_title, .default.dark .section_body {
     color: #FFFFFF
 }

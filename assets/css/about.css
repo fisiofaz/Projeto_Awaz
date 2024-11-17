@@ -1,0 +1,35 @@
+.sectin_aboutus {
+    display: flex; 
+    padding: 0 auto;
+}
+
+.section_aboutus--left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 100px;
+}
+
+.section_aboutus--left p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.section_aboutus--left .button.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+.section_aboutus--right {
+    width: 620px;
+    text-align: center;
+}
+.section_aboutus--right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
