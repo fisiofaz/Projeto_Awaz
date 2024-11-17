@@ -1,5 +1,44 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./bannerCarousel.css');
+@import url('./about.css');
 
+.default {
+    padding: 50px 0;
+}
+.default .section_title, .default .section_desc {
+    text-align: center;   
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
+.default .section_title {  
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.default .section_desc {
+    font-size: 12px;
+    color: #cccccc;
+}
+.default .section_body {
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.default.light {
+    background-color: F7F7F7;
+}
+
+.default.light .section_title {
+    color: #000000
+}
+
+.default.dark {
+    background-color: #000000;
+}
+
+.default.dark .section_title {
+    color: #FFFFFF
+}
