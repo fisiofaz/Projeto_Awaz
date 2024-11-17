@@ -1,0 +1,58 @@
+.banner h1, .banner h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.banner h2  {    
+    color: #B28756;
+    font-size: 56px;
+    margin-top: -10px;
+}
+
+.banner h2 .slader2 {
+    text-align: center;
+}
+
+.banner p {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.banner a {
+    display: block;
+    background-color: #B28756;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.silers_pointers {
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 10px;  
+}
+
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner .pointer.active {
+    background-color: #B28756;
+}
