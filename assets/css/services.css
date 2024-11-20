@@ -1,0 +1,28 @@
+.section_services {
+    display: flex;
+    margin-top: 40px;
+   
+}
+
+.section_service {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border-right: 1px solid #333333;
+}
+
+.section_service:first-child {
+     border-left: 1px solid #333333;
+}
+
+.section_service h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.section_service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999999;
+}
