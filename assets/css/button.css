@@ -11,3 +11,12 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
+.btn_projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    width: 15%;
+    margin: 0 auto;
+}
