@@ -4,6 +4,7 @@
 @import url('./bannerCarousel.css');
 @import url('./about.css');
 @import url('./services.css');
+@import url('./projects.css');
 
 .default {
     padding: 50px 0;
