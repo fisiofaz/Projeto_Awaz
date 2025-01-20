@@ -1,0 +1,7 @@
+.section_companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 40px 0 ;
+}

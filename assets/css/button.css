@@ -20,3 +20,12 @@
     width: 15%;
     margin: 0 auto;
 }
+
+.btn_price {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.btn_price.active {
+    background-color: #B28756;
+    color: #FFFFFF;
+}

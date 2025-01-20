@@ -1,0 +1,44 @@
+.clients {
+    background-color: #f1f1f1;
+}
+
+.section_clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.section_clients--avatar {
+    padding: 50px 0 30px;
+}
+
+.section_clients--name {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.section_clients--role {
+    font-size: 16px;
+    color: #000000;
+    font-size: 400;
+    margin-bottom: 30px;
+}
+
+.section_clients--quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.section_clients--text {
+    width: 752px; 
+    height: 97px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #999999;
+}

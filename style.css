@@ -1,10 +1,15 @@
-@import url('./reset.css');
-@import url('./header.css');
-@import url('./button.css');
-@import url('./bannerCarousel.css');
-@import url('./about.css');
-@import url('./services.css');
-@import url('./projects.css');
+@import url('./assets/css/reset.css');
+@import url('./assets/css/header.css');
+@import url('./assets/css/about.css');
+@import url('./assets/css/bannerCarousel.css');
+@import url('./assets/css/button.css');
+@import url('./assets/css/pointer.css');
+@import url('./assets/css/services.css');
+@import url('./assets/css/projects.css');
+@import url('./assets/css/team.css');
+@import url('./assets/css/clients.css');
+@import url('./assets/css/companies.css');
+@import url('./assets/css/price.css');
 
 .default {
     padding: 50px 0;

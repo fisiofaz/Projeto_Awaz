@@ -1,0 +1,21 @@
+.section_team .silers_pointers, .section_clients .silers_pointers {
+    width: auto;
+    height: 20px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;  
+    gap: 10px;  
+}
+
+.section_team .pointer, .section_clients .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section_team .pointer.active, .section_clients .pointer.active{
+    background-color: #B28756;
+}
