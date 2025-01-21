@@ -1,4 +1,4 @@
-.section_team .silers_pointers, .section_clients .silers_pointers {
+.section_team .silers_pointers, .section_clients .silers_pointers, .section_premium .pointer {
     width: auto;
     height: 20px;
     display: flex;
@@ -8,7 +8,7 @@
     gap: 10px;  
 }
 
-.section_team .pointer, .section_clients .pointer {
+.section_team .pointer, .section_clients .pointer, .section_premium .pointer {
     width: 15px;
     height: 15px;
     border: 2px solid #B28756;
@@ -16,6 +16,11 @@
     cursor: pointer;
 }
 
-.section_team .pointer.active, .section_clients .pointer.active{
+.section_team .pointer.active, .section_clients .pointer.active, .section_premium .pointer.active {
     background-color: #B28756;
+}
+
+.section_premium .premium {
+   display: flex;
+   gap: 10px;
 }
