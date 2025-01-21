@@ -1,0 +1,40 @@
+.section_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section_contact--date {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.section_contact--date-name, .section_contact--subject, .section_contact--message {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-bottom: 1px solid #999999;
+}
+
+.section_contact--date-name label, .section_contact--subject label, .section_contact--message label {
+    font-weight: 600;
+    font-size: 18px;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+.section_contact--date-name input, .section_contact--subject input, .section_contact--message input {
+    border: none;
+}
+
+.section_contact--subject, .section_contact--message {
+    width: 530px ;
+    margin-bottom: 100px;
+}
+
+.section_contact--message {    
+    margin-bottom: 20px;
+}
