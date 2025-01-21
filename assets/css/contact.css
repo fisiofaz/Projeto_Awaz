@@ -1,3 +1,6 @@
+.contact {
+    background-color: #f1f1f1;
+}
 .section_contact {
     display: flex;
     flex-direction: column;
@@ -28,6 +31,7 @@
 
 .section_contact--date-name input, .section_contact--subject input, .section_contact--message input {
     border: none;
+    background: none;
 }
 
 .section_contact--subject, .section_contact--message {
