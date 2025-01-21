@@ -1,0 +1,47 @@
+.section_some {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px 20px;   
+}
+
+.section_some {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section_some--discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.section_some--discription h3 {
+    font-size: 30px;
+    color: #B28756;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.section_some--description-line {
+    background-color: #999999;
+    height: 1px;
+    width: 20px;
+    margin: 10px 0;
+}
+
+.section_some--discription h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.section_some--discription p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999999;
+    margin-top: 20px;
+}
