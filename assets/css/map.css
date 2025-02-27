@@ -5,6 +5,10 @@
     padding: 50px 0;
 }
 
+.section_map--map {
+    display: none;   
+}
+
 .section_map--area {
     width: 100vw;
     max-width: 1140px;

@@ -16,17 +16,22 @@
                 <img src="./assets/images/logo.png" alt="logo" >
             </div>
             <div class="menu">
-                <ul>
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Our Projects</a></li>
-                    <li><a href="#">Our Team</a></li>
-                    <li><a href="#">Happy Clients</a></li>
-                    <li><a href="#">Price</a></li>
-                    <li><a href="#">Some Facts</a></li>
-                    <li><a href="#">Contactus</a></li>
-                </ul>
+                <div class="menu-opener">
+                     <img  class="menu-opener-x" src="./assets/images/menu.png" alt="botão de menu" />
+                </div>               
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Our Projects</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Happy Clients</a></li>
+                        <li><a href="#">Price</a></li>
+                        <li><a href="#">Some Facts</a></li>
+                        <li><a href="#">Contactus</a></li>
+                    </ul>
+                </nav>                
             </div>
         </div>
     </header>
@@ -524,40 +529,44 @@
         </section>
         <section>
             <div class="section_social">
-                <div class="section_social--social">
-                    <img class="section_social--tell" src="./assets/images/share.png" alt="sibolo de compartilhamento">
-                    <p>Tell About US:</p>
+                <div >
+                    <div class="section_social--tell">
+                        <img class="section_social--img" src="./assets/images/share.png" alt="sibolo de compartilhamento">
+                        <p>Tell About US:</p>
+                    </div>
                 </div>
-                <div class="section_social--social">
-                    <div class="section_social--twitter">
-                        <img  src="./assets/images/twitter.png" alt="logo do twitter">
-                    </div>                    
-                    <p>152</p>
-                </div>
-                <div class="section_social--social">
-                    <div class="section_social--linkedin">
-                        <img  src="./assets/images/linkedin.png" alt="sibolo de compartilhamento">  
-                    </div>                    
-                    <p>31</p>
-                </div>
-                <div class="section_social--social">
-                    <div class="section_social--facebook">
-                        <img  src="./assets/images/facebook.png" alt="logo do facebook">
-                    </div>                    
-                    <p>165</p>
-                </div>
-                <div class="section_social--social">
-                    <div class="section_social--googleplus">
-                        <img  src="./assets/images/googleplus.png" alt="logo do googleplus">  
-                    </div>                    
-                    <p>22</p>
-                </div>
-                <div class="section_social--social">
-                    <div class="section_social--pinterest">
-                        <img  src="./assets/images/pinterest.png" alt="logo do pinterest">
-                    </div>                    
-                    <p>165</p>
-                </div>
+                <div class="section_social--icons">
+                    <div class="section_social--social">
+                        <div class="section_social--twitter">
+                            <img  src="./assets/images/twitter.png" alt="logo do twitter">
+                        </div>                    
+                        <p>152</p>
+                    </div>
+                    <div class="section_social--social">
+                        <div class="section_social--linkedin">
+                            <img  src="./assets/images/linkedin.png" alt="sibolo de compartilhamento">  
+                        </div>                    
+                        <p>31</p>
+                    </div>
+                    <div class="section_social--social">
+                        <div class="section_social--facebook">
+                            <img  src="./assets/images/facebook.png" alt="logo do facebook">
+                        </div>                    
+                        <p>165</p>
+                    </div>
+                    <div class="section_social--social">
+                        <div class="section_social--googleplus">
+                            <img  src="./assets/images/googleplus.png" alt="logo do googleplus">  
+                        </div>                    
+                        <p>22</p>
+                    </div>
+                    <div class="section_social--social">
+                        <div class="section_social--pinterest">
+                            <img  src="./assets/images/pinterest.png" alt="logo do pinterest">
+                        </div>                    
+                        <p>165</p>
+                    </div>
+                </div> 
             </div>
         </section>
         <section class="default light contact">
@@ -592,6 +601,9 @@
             </div>
         </section>
         <section class="section_map">
+            <div class="section_map--map">
+                <img src="./assets/images/mapa.jpg" alt="" srcset="">
+            </div>
             <div class="section_map--area">
                 <div class="section_map--area-info">
                     <div class="section_map--area-info-item">
@@ -631,7 +643,7 @@
     <footer>
         <section class="section_footer dark">
             <div class="section_footer--container">
-                <div class="section_footer--social">
+                <div class="section_footer--social ">
                     <div class="section_footer--social-item">
                         <div class="section_footer--social-item-icon">
                             <a href="#"><img  src="./assets/images/twitter.png" alt="logo do twitter"></a>
@@ -652,12 +664,12 @@
                             <a href="#"><img  src="./assets/images/pinterest.png" alt="logo do pinterest"></a>
                         </div> 
                     </div>
-                    <p>AMAX &reg 2016</p>          
+                    <p class="footer-text">AMAX &reg 2016</p>          
                 </div>
-                <div class="section_footer--text">
+                <div class="section_footer--text ">
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
                 </div>
-                <div class="section_footer--subescribe">
+                <div class="section_footer--subescribe ">
                     <label for="contact">EMAIL TO SUBSCRIBE</label>
                     <input type="email" name="EMAIL TO SUBSCRIBE" id="contact">
                     <a href="#" class="button">Send message</a>

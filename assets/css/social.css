@@ -1,13 +1,13 @@
 .section_social {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;   
     margin: 20px 0;
      gap: 40px;
 }
 
-.section_social--social {
+.section_social--icons {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -15,7 +15,15 @@
     gap: 20px;
 }
 
-.section_social--social .section_social--tell {
+.section_social--social, .section_social--tell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section_social--social .section_social--img {
     color: #999999;
 }
 .section_social--social p {
